@@ -1,0 +1,48 @@
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    justify-content: center;
+    margin-top: 3%;
+}
+.container{
+    display: inline-flexbox;
+    justify-content: center;
+    width: 310px;
+    height: 430px;
+    border-radius: 4%;
+    background-color: hsl(0, 0%, 100%);
+    flex-direction: column;
+    padding-top: 1%;
+    padding-bottom: 0.3%;
+}
+img{
+    width: 280px;
+    height: 270px;
+    border-radius: 7%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+}
+
+
+.container h2{
+    margin-left: 15%;
+    margin-right: 10%;
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    font-family: "outfit", sans-serif;
+}
+.container p{
+    margin-left: 14.8%;
+    margin-right: 12%;
+    font-size: 13px;
+    margin-top: 3%;
+    color: hsl(220, 15%, 55%);
+    font-family: "outfit", sans-serif;
+    font-weight: 400;
+}
+
+.attribution {
+    position: relative;
+    top: 60px;
+}
